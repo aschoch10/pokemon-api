@@ -1,10 +1,12 @@
 import './App.css';
+import PokeAxios from './components/PokeAxios';
 import PokeFetch from './components/PokeFetch';
 
 function App() {
   return (
     <div className="App">
-        <PokeFetch/>
+        {/* <PokeFetch/> */}
+        <PokeAxios/>
     </div>
   );
 }
